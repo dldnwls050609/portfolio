@@ -1,0 +1,473 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+.cbox>h1 {
+    display: none;
+}
+
+body {
+    background-color: black;
+}
+
+.cbox {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 900px;
+}
+
+.cbox .c1 {
+    width: 1450px;
+    height: 1450px;
+    position: absolute;
+    z-index: 2;
+    top: -30%;
+    left: -13%;
+    background: url(../images/circle1.png);
+}
+
+.cbox .c2 {
+    width: 1450px;
+    height: 1450px;
+    position: absolute;
+    top: -30%;
+    left: -13%;
+    animation: c2 5s linear .5s infinite;
+    animation-play-state: running;
+    box-shadow: 0 0 10px 0px black;
+    border-radius: 50%;
+    background: url(../images/circle2.png);
+}
+
+@keyframes c2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.c2.stop {
+    animation-play-state: paused;
+}
+
+.cbox .menu {
+    position: absolute;
+    top: 22%;
+    right: 10%;
+    color: #fff;
+}
+
+.one {
+    width: 15rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: all 1s;
+}
+
+.one:hover {
+    background-color: cadetblue;
+}
+
+.one h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -51%);
+    z-index: 3;
+}
+
+.em {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 9rem;
+    height: 7rem;
+    border: 2px solid #ffffff;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 2;
+    transition: all 1s;
+}
+
+.one:nth-child(2) {
+    margin: 10% 0;
+}
+
+.sun {
+    width: 1000px;
+    position: absolute;
+    top: 29.2%;
+    right: 0;
+    z-index: -1;
+}
+
+.sun hr:nth-child(2) {
+    margin: 15% 0;
+}
+
+.fade {
+    position: relative;
+}
+
+/* main1 */
+.main1 .container {
+    background-color: #fff;
+    padding: 16% 2% 3% 2%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 0 0 20px;
+}
+
+.main1 .container .tool {
+    width: 100%;
+    height: 100%;
+}
+
+.main1 .container .tool img {
+    margin: 3%;
+    width: 13%;
+}
+
+/* main2 */
+
+.main2 {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: #fff;
+    width: 800px;
+    border-radius: 20px;
+    padding: 3% 0 5% 5%;
+    z-index: 3;
+    box-shadow: 0 0 10px 0px rgb(0, 0, 0);
+}
+
+.main2 h1 {
+    text-align: center;
+    margin: 0 63% 10% 0;
+}
+
+.main2 .profile {
+    height: 350px;
+}
+
+.main2 .profile .text {
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    font-size: 1.5rem;
+}
+
+.i {
+    width: 250px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: skyblue;
+}
+
+.con {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+
+.con h4 {
+    margin-top: 8%;
+}
+
+.line {
+    margin-top: 15%;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 1s;
+}
+
+.line h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin: 1%;
+    text-align: center;
+}
+
+/* main3 */
+
+.main3 {
+    margin-top: 20%;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.main3 h1 {
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main3 .container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main3 .box {
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+    margin: 1%;
+    border: 2px solid #fff;
+}
+
+.main3 .box a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+.main3 .box:nth-child(1) {
+    background: url(../images/d1.jpg) center/ cover;
+}
+
+.main3 .box:nth-child(2) {
+    background: url(../images/d2.jpg) center/ cover;
+}
+
+.main3 .box:nth-child(3) {
+    background: url(../images/d3.jpg) center/ cover;
+}
+
+.main3 .box:nth-child(4) {
+    background: url(../images/d4.jpg) center/ cover;
+}
+
+.main3 .box:nth-child(5) {
+    background: url(../images/d5.jpg) center/ cover;
+}
+
+.main3 .box:nth-child(6) {
+    position: relative;
+}
+
+.main3 .box:nth-child(6) h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main3 h3 {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.main4 {
+    margin-top: 20%;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.main4 h1 {
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main4 .container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main4 .box {
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+    margin: 1%;
+    border: 2px solid #fff;
+}
+.main4 .box a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.main4 h3 {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.main4 .box:nth-child(1) {
+    background: url(../images/c1.jpg) center/ cover;
+}
+
+.main4 .box:nth-child(2) {
+    background: url(../images/c2.jpg) center/ cover;
+}
+
+.main4 .box:nth-child(3) {
+    background: url(../images/c3.png) center/ cover;
+}
+
+.main4 .box:nth-child(4) {
+    background: url(../images/c4.png) center/ cover;
+}
+
+.main4 .box:nth-child(5) {
+    position: relative;
+}
+
+.main4 .box:nth-child(6) {
+    position: relative;
+}
+
+.main4 .box:nth-child(5) h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main4 .box:nth-child(6) h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.main5 {
+    margin-top: 20%;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.main5 h1 {
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main5 .container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main5 .box {
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+    margin: 1%;
+    border: 2px solid #fff;
+}
+.main5 .box a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.main5 h3 {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.main5 .box:nth-child(1) {
+    background: url(../images/f1.jpg) center/ cover;
+}
+
+.main5 .box:nth-child(2) {
+    background: url(../images/f2.jpg) center/ cover;
+}
+
+.main5 .box:nth-child(3) {
+    background: url(../images/f3.jpg) center/ cover;
+}
+
+.main5 .box:nth-child(4) {
+    background: url(../images/f4.png) center/ cover;
+}
+
+.main5 .box:nth-child(5) {
+    position: relative;
+}
+
+.main5 .box:nth-child(6) {
+    position: relative;
+}
+
+.main5 .box:nth-child(5) h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main5 .box:nth-child(6) h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
