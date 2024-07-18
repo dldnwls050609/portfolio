@@ -1,763 +1,13 @@
-@media screen and (max-width:1650px) {
-    .cbox .c1 {
-        width: 1350px;
-        height: 1350px;
-        position: absolute;
-        z-index: 2;
-        top: -30%;
-        left: -13%;
-        background: url(../images/circle1.png);
-        background-size: 1350px;
-    }
-
-    .cbox .c2 {
-        width: 1350px;
-        height: 1350px;
-        position: absolute;
-        top: -30%;
-        left: -13%;
-        animation: c2 5s linear .5s infinite;
-        animation-play-state: running;
-        box-shadow: 0 0 10px 0px black;
-        border-radius: 50%;
-        background: url(../images/circle2.png);
-        background-size: 1350px;
-    }
-
-    .main1 .container {
-        background-color: #fff;
-        padding: 3% 2% 3% 2%;
-        margin-top: 13%;
-        width: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        text-align: center;
-        border-radius: 0 20px 20px 0;
-    }
-
-    .main2 {
-        position: absolute;
-        top: -100%;
-        right: 10%;
-        background-color: #fff;
-        width: 800px;
-        border-radius: 20px;
-        padding: 3% 0 5% 5%;
-        z-index: 3;
-        box-shadow: 0 0 10px 0px rgb(0, 0, 0);
-    }
-
-}
-
-@media screen and (max-width:1550px) {
-    .cbox .c1 {
-        width: 1250px;
-        height: 1250px;
-        position: absolute;
-        z-index: 2;
-        top: -30%;
-        left: -13%;
-        background: url(../images/circle1.png);
-        background-size: 1250px;
-    }
-
-    .cbox .c2 {
-        width: 1250px;
-        height: 1250px;
-        position: absolute;
-        top: -30%;
-        left: -13%;
-        animation: c2 5s linear .5s infinite;
-        animation-play-state: running;
-        box-shadow: 0 0 10px 0px black;
-        border-radius: 50%;
-        background: url(../images/circle2.png);
-        background-size: 1250px;
-    }
-
-    .main1 .container {
-        background-color: #fff;
-        padding: 3% 2% 3% 2%;
-        margin-top: 10%;
-        width: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        text-align: center;
-        border-radius: 0 20px 20px 0;
-    }
-
-    .main2 {
-        position: absolute;
-        top: -110%;
-        right: 10%;
-        background-color: #fff;
-        width: 800px;
-        border-radius: 20px;
-        padding: 3% 0 5% 5%;
-        z-index: 3;
-        box-shadow: 0 0 10px 0px rgb(0, 0, 0);
-    }
-
-}
-
-
-
-@media screen and (max-width:1450px) {
-    .cbox .c1 {
-        width: 1150px;
-        height: 1150px;
-        position: absolute;
-        z-index: 2;
-        top: -30%;
-        left: -13%;
-        background: url(../images/circle1.png);
-        background-size: 1150px;
-    }
-
-    .cbox .c2 {
-        width: 1150px;
-        height: 1150px;
-        position: absolute;
-        top: -30%;
-        left: -13%;
-        animation: c2 5s linear .5s infinite;
-        animation-play-state: running;
-        box-shadow: 0 0 10px 0px black;
-        border-radius: 50%;
-        background: url(../images/circle2.png);
-        background-size: 1150px;
-    }
-
-    .main1 .container {
-        background-color: #fff;
-        padding: 3% 2% 3% 2%;
-        margin-top: 8%;
-        width: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        text-align: center;
-        border-radius: 0 20px 20px 0;
-    }
-
-    .main2 {
-        position: absolute;
-        top: -100%;
-        right: 10%;
-        background-color: #fff;
-        width: 800px;
-        border-radius: 20px;
-        padding: 3% 0 5% 5%;
-        z-index: 3;
-        box-shadow: 0 0 10px 0px rgb(0, 0, 0);
-    }
-
-}
-
-@media screen and (max-width:1350px) {
-    .cbox .c1 {
-        width: 1050px;
-        height: 1050px;
-        position: absolute;
-        z-index: 2;
-        top: -20%;
-        left: -13%;
-        background: url(../images/circle1.png);
-        background-size: 1050px;
-    }
-
-    .cbox .c2 {
-        width: 1050px;
-        height: 1050px;
-        position: absolute;
-        top: -20%;
-        left: -13%;
-        animation: c2 5s linear .5s infinite;
-        animation-play-state: running;
-        box-shadow: 0 0 10px 0px black;
-        border-radius: 50%;
-        background: url(../images/circle2.png);
-        background-size: 1050px;
-    }
-
-    .cbox .menu {
-        position: absolute;
-        top: 13%;
-        right: 10%;
-        color: #fff;
-    }
-
-    .sun {
-        width: 1000px;
-        position: absolute;
-        top: 20.2%;
-        right: 0;
-        z-index: -1;
-    }
-
-    .fade {
-        position: relative;
-        height: 450px;
-    }
-
-    .main2 {
-        position: absolute;
-        top: 0%;
-        right: 10%;
-        background-color: #fff;
-        width: 700px;
-        border-radius: 20px;
-        padding: 3% 0 5% 5%;
-        z-index: 3;
-        box-shadow: 0 0 10px 0px rgb(0, 0, 0);
-    }
-
-    .main1 {
-        position: absolute;
-        top: 0%;
-        left: 0;
-        width: 1300px;
-    }
-
-    .con {
-        position: absolute;
-        bottom: 0;
-        left: 45%;
-    }
-
-    .name {
-        position: absolute;
-        top: 0;
-        left: 45%;
-        font-size: 1.5rem;
-    }
-
-    .main1 .container {
-        margin-top: -0%;
-        background-color: #fff;
-        padding: 3% 2% 3% 2%;
-        width: 30%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        text-align: center;
-        border-radius: 0 20px 20px 0;
-    }
-
-    .main1 .container .tool {
-        width: 100%;
-        height: 100%;
-    }
-
-    .main1 .container .tool h1 {
-        margin-bottom: 5%;
-    }
-
-    .main1 .container .tool img {
-        margin: 3%;
-        width: 27%;
-    }
-}
-
-@media screen and (max-width:1300px) {
-    .main2 {
-        position: absolute;
-        top: 0%;
-        right: 15%;
-        background-color: #fff;
-        width: 50%;
-        height: 560px;
-        border-radius: 20px;
-        padding: 3% 0 3% 3%;
-        z-index: 3;
-        box-shadow: 0 0 10px 0px rgb(0, 0, 0);
-    }
-
-    .con {
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-    }
-
-    .name {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        font-size: 1.5rem;
-    }
-
-    .main1 {
-        width: 90%;
-    }
-
-    .main1 .container {
-        margin-top: -0%;
-        background-color: #fff;
-        padding: 3% 0;
-        width: 20%;
-        height: 560px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        text-align: center;
-        border-radius: 0 20px 20px 0;
-    }
-
-    .main1 .container .tool {
-        width: 100%;
-        height: 100%;
-    }
-
-    .main1 .container .tool .is {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        text-align: center;
-    }
-
-    .main1 .container .tool h1 {
-        margin: 10% 0;
-    }
-
-    .main1 .container .tool img {
-        margin: 3% 14%;
-        width: 80px;
-    }
-}
-
-@media screen and (max-width:1260px) {
-    .cbox .c1 {
-        width: 950px;
-        height: 950px;
-        position: absolute;
-        z-index: 2;
-        top: -20%;
-        left: -13%;
-        background: url(../images/circle1.png);
-        background-size: 950px;
-    }
-
-    .cbox .c2 {
-        width: 950px;
-        height: 950px;
-        position: absolute;
-        top: -20%;
-        left: -13%;
-        animation: c2 5s linear .5s infinite;
-        animation-play-state: running;
-        box-shadow: 0 0 10px 0px black;
-        border-radius: 50%;
-        background: url(../images/circle2.png);
-        background-size: 950px;
-    }
-
-    .cbox {
-        position: relative;
-        z-index: 1;
-        width: 100%;
-        height: 850px;
-    }
-}
-
-@media screen and (max-width:1200px) {
-    .main1 {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width:1160px) {
-    .cbox .c1 {
-        width: 850px;
-        height: 850px;
-        position: absolute;
-        z-index: 2;
-        top: -14%;
-        left: -13%;
-        background: url(../images/circle1.png);
-        background-size: 850px;
-    }
-
-    .cbox .c2 {
-        width: 850px;
-        height: 850px;
-        position: absolute;
-        top: -14%;
-        left: -13%;
-        animation: c2 5s linear .5s infinite;
-        animation-play-state: running;
-        box-shadow: 0 0 10px 0px black;
-        border-radius: 50%;
-        background: url(../images/circle2.png);
-        background-size: 850px;
-    }
-
-    .cbox {
-        position: relative;
-        z-index: 1;
-        width: 100%;
-        height: 780px;
-    }
-
-    .cbox .menu {
-        position: absolute;
-        top: 13%;
-        right: 10%;
-        color: #fff;
-    }
-
-    .sun {
-        width: 1000px;
-        position: absolute;
-        top: 21%;
-        right: 0;
-        z-index: -1;
-    }
-}
-
-@media screen and (max-width:1060px) {
-    .cbox .c1 {
-        width: 750px;
-        height: 750px;
-        position: absolute;
-        z-index: 2;
-        top: -14%;
-        left: -13%;
-        background: url(../images/circle1.png);
-        background-size: 750px;
-    }
-
-    .cbox .c2 {
-        width: 750px;
-        height: 750px;
-        position: absolute;
-        top: -14%;
-        left: -13%;
-        animation: c2 5s linear .5s infinite;
-        animation-play-state: running;
-        box-shadow: 0 0 10px 0px black;
-        border-radius: 50%;
-        background: url(../images/circle2.png);
-        background-size: 750px;
-    }
-
-    .cbox {
-        position: relative;
-        z-index: 1;
-        width: 100%;
-        height: 780px;
-    }
-
-    .cbox .menu {
-        position: absolute;
-        top: 13%;
-        right: 10%;
-        color: #fff;
-    }
-
-    .sun {
-        width: 1000px;
-        position: absolute;
-        top: 21%;
-        right: 0;
-        z-index: -1;
-    }
-
-    .fade {
-        height: 1000px;
-        position: relative;
-    }
-
-    .main2 {
-        position: absolute;
-        top: 0%;
-        right: 13%;
-        background-color: #fff;
-        width: 700px;
-        height: 560px;
-        border-radius: 20px;
-        padding: 3% 0 5% 5%;
-        z-index: 3;
-        box-shadow: 0 0 10px 0px rgb(0, 0, 0);
-    }
-
-    .main1 {
-        position: absolute;
-        top: 60%;
-        left: 13%;
-        width: 700px;
-
-    }
-
-    .main1 .container {
-        background-color: #fff;
-        padding: 0;
-        width: 700px;
-        height: 20%;
-        border-radius: 20px;
-    }
-
-    .main1 .container .tool {
-        width: 100%;
-        height: 100%;
-        margin-bottom: 5%;
-    }
-
-    .main1 .container .tool h1 {
-        margin-bottom: 5%;
-    }
-
-    .main1 .container .tool img {
-        margin: 5%;
-        width: 13%;
-    }
-}
-
-@media screen and (max-width:960px) {
-    .cbox .c1 {
-        width: 650px;
-        height: 650px;
-        position: absolute;
-        z-index: 2;
-        top: -3%;
-        left: -13%;
-        background: url(../images/circle1.png);
-        background-size: 650px;
-    }
-
-    .cbox .c2 {
-        width: 650px;
-        height: 650px;
-        position: absolute;
-        top: -3%;
-        left: -13%;
-        animation: c2 5s linear .5s infinite;
-        animation-play-state: running;
-        box-shadow: 0 0 10px 0px black;
-        border-radius: 50%;
-        background: url(../images/circle2.png);
-        background-size: 650px;
-    }
-
-    .cbox .menu {
-        position: absolute;
-        top: 13%;
-        right: 10%;
-        color: #fff;
-    }
-}
-
-@media screen and (max-width:864px) {
-    .cbox .menu {
-        position: absolute;
-        top: 20%;
-        right: 10%;
-        color: #fff;
-    }
-
-    .one {
-        width: 11rem;
-        height: 5.5rem;
-        border-radius: 50%;
-        border: 2px solid #fff;
-        position: relative;
-        z-index: 1;
-        transition: all 1s;
-    }
-
-    .em {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 6rem;
-        height: 5rem;
-        border: 2px solid #ffffff;
-        background-color: black;
-        border-radius: 50%;
-        z-index: 2;
-        transition: all 1s;
-    }
-
-    .one h1 {
-        font-size: 1.5rem;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -51%);
-        z-index: 3;
-    }
-
-    .sun {
-        width: 1000px;
-        position: absolute;
-        top: 25.5%;
-        right: 0;
-        z-index: -1;
-    }
-
-    .sun hr:nth-child(2) {
-        margin: 10.5% 0;
-    }
-}
-
-@media screen and (max-width:826px) {
-    .main1 {
-        position: absolute;
-        top: 60%;
-        left: 15%;
-        width: 600px;
-
-    }
-
-    .main1 .container {
-        background-color: #fff;
-        padding: 0;
-        width: 600px;
-        height: 20%;
-        border-radius: 20px;
-    }
-
-    .main1 .container .tool {
-        width: 100%;
-        height: 100%;
-        margin-bottom: 5%;
-    }
-
-    .main1 .container .tool h1 {
-        margin-bottom: 5%;
-    }
-
-    .main1 .container .tool img {
-        margin: 5%;
-        width: 13%;
-    }
-}
-
-@media screen and (max-width:800px) {
-    .main2 {
-        position: absolute;
-        top: 0%;
-        right: 13%;
-        background-color: #fff;
-        width: 600px;
-        height: 560px;
-        border-radius: 20px;
-        padding: 3% 0 5% 5%;
-        z-index: 3;
-        box-shadow: 0 0 10px 0px rgb(0, 0, 0);
-    }
-
-    .main1 {
-        position: absolute;
-        top: 60%;
-        left: 13%;
-        width: 700px;
-
-    }
-
-    .main1 .container {
-        background-color: #fff;
-        padding: 0;
-        width: 600px;
-        height: 20%;
-        border-radius: 20px;
-    }
-
-    .main1 .container .tool {
-        width: 100%;
-        height: 100%;
-        margin-bottom: 5%;
-    }
-
-    .main1 .container .tool h1 {
-        margin-bottom: 5%;
-    }
-
-    .main1 .container .tool img {
-        margin: 5%;
-        width: 13%;
-    }
-
-    .cbox .c1 {
-        display: none;
-    }
-
-    .cbox .c2 {
-        display: none;
-    }
-
-    .cbox {
-        text-align: left;
-        height: 600px;
-    }
-
-    .cbox>h1 {
-        display: inline-block;
-        color: #fff;
-        margin: 8% 0 0 10%;
-        line-height: 108px;
-        font-size: 3rem;
-    }
-}
-
-
-
-@media screen and (max-width:1600px) {
-    .main3 {
-        margin-top: 20%;
-        width: 100%;
-        height: 1000px;
-        position: relative;
-        text-align: center;
-        font-size: 1.8rem;
-        color: #fff;
-    }
-
-    .main3 h1 {
-        position: absolute;
-        top: -15%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .main3 .container {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80%;
-        height: 70%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .main3 .box {
-        width: 400px;
-        height: 50%;
-        border-radius: 20px;
-        margin: 1%;
-        border: 2px solid #fff;
-    }
-
-    .main3 h3 {
-        position: absolute;
-        bottom: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-    }
-
+@media screen and (max-width:1595px) {
     .main3 .box:nth-child(5) {
+        display: none;
+    }
+
+    .main4 .box:nth-child(5) {
+        display: none;
+    }
+
+    .main5 .box:nth-child(5) {
         display: none;
     }
 
@@ -765,107 +15,7 @@
         display: none;
     }
 
-    .main4 {
-        margin-top: 20%;
-        width: 100%;
-        height: 1000px;
-        position: relative;
-        text-align: center;
-        font-size: 1.8rem;
-        color: #fff;
-    }
-
-    .main4 h1 {
-        position: absolute;
-        top: -15%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .main4 .container {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80%;
-        height: 70%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .main4 .box {
-        width: 400px;
-        height: 50%;
-        border-radius: 20px;
-        margin: 1%;
-        border: 2px solid #fff;
-    }
-
-    .main4 h3 {
-        position: absolute;
-        bottom: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-    }
-
-    .main4 .box:nth-child(5) {
-        display: none;
-    }
-
     .main4 .box:nth-child(6) {
-        display: none;
-    }
-
-    .main5 {
-        margin-top: 20%;
-        width: 100%;
-        height: 1000px;
-        position: relative;
-        text-align: center;
-        font-size: 1.8rem;
-        color: #fff;
-    }
-
-    .main5 h1 {
-        position: absolute;
-        top: -15%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .main5 .container {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80%;
-        height: 70%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .main5 .box {
-        width: 400px;
-        height: 50%;
-        border-radius: 20px;
-        margin: 1%;
-        border: 2px solid #fff;
-    }
-
-    .main5 h3 {
-        position: absolute;
-        bottom: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-    }
-
-    .main5 .box:nth-child(5) {
         display: none;
     }
 
@@ -874,119 +24,146 @@
     }
 }
 
-@media screen and (max-width:1041px) {
+@media screen and (max-width:1650px) {
+    .cbox .c1 {
+        border-radius: 50%;
+        width: 1250px;
+        height: 1250px;
+        background-size: 1250px;
+        position: absolute;
+        top: -20%;
+        left: -13%;
+    }
+
+    .cbox .c2 {
+        border-radius: 50%;
+        width: 1250px;
+        height: 1250px;
+        background-size: 1250px;
+        position: absolute;
+        top: -20%;
+        left: -13%;
+    }
+}
+
+@media screen and (max-width:1450px) {
+    .cbox .c1 {
+        width: 1050px;
+        height: 1050px;
+        background-size: 1050px;
+        position: absolute;
+        top: -10%;
+        left: -13%;
+    }
+
+    .cbox .c2 {
+        width: 1050px;
+        height: 1050px;
+        background-size: 1050px;
+        position: absolute;
+        top: -10%;
+        left: -13%;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .cbox .c1 {
+        box-shadow: 0 0 10px 5px black;
+    }
+
+    .fade {
+        width: 100%;
+        height: 1200px;
+    }
+
+    .main1 {
+        position: unset;
+        margin: 0 auto;
+        padding-top: 2px;
+        width: 600px;
+    }
+
+    .main2 {
+        position: unset;
+        margin: 50px auto;
+        padding-top: 2px;
+    }
+
+}
+
+@media screen and (max-width:1250px) {
+    .cbox {
+        height: 1250px;
+    }
+
+    .cbox .c1 {
+        border-radius: 50%;
+        width: 1050px;
+        height: 1050px;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-size: 1050px;
+    }
+
+    .cbox .c2 {
+        border-radius: 50%;
+        position: unset;
+        width: 1050px;
+        height: 1050px;
+        margin: 0 auto;
+        background-size: 1050px;
+    }
+
+    .cbox .stop {
+        border-radius: 50%;
+    }
+
+    .menu {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .menu .container {
+        margin-top: 500px;
+        position: unset;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        width: 100%;
+    }
+
+    .menu .box {
+        position: unset;
+    }
+
+    .menu .box:nth-child(2) {
+        margin-top: 350px;
+    }
+
+    .one {
+        margin-bottom: 250px;
+    }
+
+    .fade {
+        margin-top: 100px;
+    }
+
+    .sun {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1270px) {
     .main3 {
-        margin-top: 20%;
-        width: 100%;
-        height: 1000px;
-        position: relative;
-        text-align: center;
-        font-size: 1.8rem;
-        color: #fff;
+        margin-top: 30%;
     }
+}
 
-    .main3 h1 {
-        position: absolute;
-        top: -15%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .main3 .container {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80%;
-        height: 70%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .main3 .box {
-        width: 400px;
-        height: 50%;
-        border-radius: 20px;
-        margin: 1%;
-        border: 2px solid #fff;
-    }
-
-    .main3 h3 {
-        position: absolute;
-        bottom: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-    }
-
-    .main3 .box:nth-child(5) {
-        display: none;
-    }
-
-    .main3 .box:nth-child(6) {
-        display: none;
-    }
-
+@media screen and (max-width:1197px) {
     .main3 .box:nth-child(3) {
-        display: none;
-    }
-
-    .main3 .box:nth-child(4) {
-        display: none;
-    }
-    .main4 {
-        margin-top: 20%;
-        width: 100%;
-        height: 1000px;
-        position: relative;
-        text-align: center;
-        font-size: 1.8rem;
-        color: #fff;
-    }
-
-    .main4 h1 {
-        position: absolute;
-        top: -15%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .main4 .container {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80%;
-        height: 70%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .main4 .box {
-        width: 400px;
-        height: 50%;
-        border-radius: 20px;
-        margin: 1%;
-        border: 2px solid #fff;
-    }
-
-    .main4 h3 {
-        position: absolute;
-        bottom: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-    }
-
-    .main4 .box:nth-child(5) {
-        display: none;
-    }
-
-    .main4 .box:nth-child(6) {
         display: none;
     }
 
@@ -994,68 +171,278 @@
         display: none;
     }
 
-    .main4 .box:nth-child(4) {
-        display: none;
-    }
-    .main5 {
-        margin-top: 20%;
-        width: 100%;
-        height: 1000px;
-        position: relative;
-        text-align: center;
-        font-size: 1.8rem;
-        color: #fff;
-    }
-
-    .main5 h1 {
-        position: absolute;
-        top: -15%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .main5 .container {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80%;
-        height: 70%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .main5 .box {
-        width: 400px;
-        height: 50%;
-        border-radius: 20px;
-        margin: 1%;
-        border: 2px solid #fff;
-    }
-
-    .main5 h3 {
-        position: absolute;
-        bottom: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-
-    }
-
-    .main5 .box:nth-child(5) {
-        display: none;
-    }
-
-    .main5 .box:nth-child(6) {
-        display: none;
-    }
-
     .main5 .box:nth-child(3) {
+        display: none;
+    }
+
+    .main3 .box:nth-child(4) {
+        display: none;
+    }
+
+    .main4 .box:nth-child(4) {
         display: none;
     }
 
     .main5 .box:nth-child(4) {
         display: none;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .cbox {
+        height: 1050px;
+    }
+
+    .cbox .c1 {
+        width: 850px;
+        height: 850px;
+        background-size: 850px;
+    }
+
+    .cbox .c2 {
+        width: 850px;
+        height: 850px;
+        background-size: 850px;
+    }
+
+    .menu .container {
+        margin-top: 400px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .cbox {
+        height: 850px;
+    }
+
+    .cbox .c1 {
+        width: 650px;
+        height: 650px;
+        background-size: 650px;
+    }
+
+    .cbox .c2 {
+        width: 650px;
+        height: 650px;
+        background-size: 650px;
+    }
+
+    .one {
+        width: 12rem;
+        height: 7rem;
+    }
+
+    .one h1 {
+        font-size: 1.8rem;
+    }
+
+    .em {
+        width: 7rem;
+        height: 6rem;
+    }
+
+    .menu .container {
+        margin-top: 300px;
+    }
+
+    .menu .box:nth-child(2) {
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main3 h3 {
+        bottom: 15%;
+    }
+
+    .main4 h3 {
+        bottom: 15%;
+    }
+
+    .main5 h3 {
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .cbox .c1 {
+        display: none;
+    }
+
+    .cbox .c2 {
+        display: none;
+    }
+
+    .sun {
+        display: block;
+        position: absolute;
+        top: 176px;
+    }
+
+    .sun hr:nth-child(2) {
+        margin: 182px 0;
+    }
+
+    .cbox .menu {
+        top: 50px;
+    }
+
+    .cbox .menu .container {
+        margin-top: 0;
+        height: 100%;
+        margin: 0px auto;
+        display: block;
+    }
+
+    .cbox .menu .container .box {
+        margin-top: 0;
+        margin: 0 auto;
+    }
+
+    .cbox .menu .container .box .one {
+        margin: 70px auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .cbox {
+        height: 600px;
+    }
+
+    .main1 {
+        width: 500px;
+    }
+
+    .main2 {
+        width: 500px;
+        height: 500px;
+    }
+
+    .is {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .line {
+        margin-top: 40%;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .main1 {
+        width: 400px;
+    }
+
+    .main2 {
+        width: 400px;
+    }
+
+    .con .b {
+        display: none;
+    }
+
+    .con .s {
+        text-align: center;
+        position: unset;
+    }
+
+    .line {
+        margin-top: 50%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .cbox {
+        height: 600px;
+    }
+
+    .main1 {
+        width: 300px;
+        height: 700px;
+    }
+
+    .main2 {
+        width: 300px;
+        height: 450px;
+    }
+
+    .main1 .i {
+        width: 240px;
+        height: 320px;
+    }
+
+    .line {
+        margin-top: 30%;
+    }
+
+    .main3 h1 {
+        font-size: 2.5rem;
+        top: -5%;
+    }
+
+    .main4 h1 {
+        font-size: 2.5rem;
+        top: -5%;
+    }
+
+    .main5 h1 {
+        font-size: 2.5rem;
+        top: -5%;
+    }
+
+    .main3 {
+        height: 600px;
+    }
+
+    .main4 {
+        height: 600px;
+    }
+
+    .main5 {
+        height: 600px;
+    }
+
+    .main3 .box:nth-child(2) {
+        display: none;
+    }
+
+    .main4 .box:nth-child(2) {
+        display: none;
+    }
+
+    .main5 .box:nth-child(2) {
+        display: none;
+    }
+
+    .main3 .container {
+        top: 40%;
+    }
+
+    .main3 h3 {
+        bottom: 21%;
+        font-size: 1.6rem;
+    }
+
+    .main4 .container {
+        top: 40%;
+    }
+
+    .main4 h3 {
+        bottom: 21%;
+        font-size: 1.6rem;
+    }
+
+    .main5 .container {
+        top: 40%;
+    }
+
+    .main5 h3 {
+        bottom: 21%;
+        font-size: 1.6rem;
     }
 }
