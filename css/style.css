@@ -28,7 +28,7 @@ body {
     width: 1450px;
     height: 1450px;
     position: absolute;
-    z-index: 2;
+    z-index: 11;
     top: -30%;
     left: -13%;
     background: url(../images/circle1.png);
@@ -41,6 +41,7 @@ body {
     top: -30%;
     left: -13%;
     overflow: hidden;
+    z-index: 10;
 }
 
 .cbox .c2 img {
@@ -75,8 +76,28 @@ body {
     color: #fff;
 }
 
-.menu .box {
-    margin: 10% 0;
+.menu .container {
+    position: relative;
+    top: 0px;
+    height: 500px;
+}
+
+.menu .container .box {
+    position: absolute;
+    right: 0;
+}
+
+.menu .container .box:nth-child(1) {
+    top: 0;
+}
+
+.menu .container .box:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu .container .box:nth-child(3) {
+    bottom: 0;
 }
 
 .one {
@@ -115,21 +136,10 @@ body {
     transition: all 1s;
 }
 
-.sun {
-    width: 1000px;
-    position: absolute;
-    top: 32%;
-    right: 0;
-    z-index: -1;
-}
-
-.sun hr:nth-child(2) {
-    margin: 15% 0;
-}
-
 /* main1 */
+
 .fade {
-    margin-top: 50px;
+    margin: 50px 0 100px 0;
     position: relative;
     height: 800px;
 }
@@ -209,11 +219,12 @@ body {
     margin: 60px auto;
 }
 
-
 .line {
     margin-top: 10%;
     border: 2px solid #fff;
     height: 100px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .line h1 {
@@ -266,7 +277,6 @@ body {
 
 .main3 .box .black {
     position: relative;
-    transition: all 1s;
 }
 
 .main4 .box .black {
@@ -410,10 +420,10 @@ body {
 
 .main3 h3 {
     position: absolute;
-    bottom: 10%;
+    bottom: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    font-size: 1.7rem;
 }
 
 .main4 {
@@ -463,10 +473,10 @@ body {
 
 .main4 h3 {
     position: absolute;
-    bottom: 10%;
+    bottom: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    font-size: 1.7rem;
 }
 
 .main4 .box:nth-child(1) {
@@ -555,10 +565,10 @@ body {
 
 .main5 h3 {
     position: absolute;
-    bottom: 10%;
+    bottom: 12%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    font-size: 1.7rem;
 }
 
 .main5 .box:nth-child(1) {
@@ -597,4 +607,27 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.gotop {
+    width: 70px;
+    height: 72px;
+    display: block;
+    background: url(../images/gotop.png) center/ cover;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: none;
+}
+
+hr {
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    width: 850px;
+    z-index: -999;
+}
+
+.box:nth-child(2) hr {
+    z-index: -999;
 }

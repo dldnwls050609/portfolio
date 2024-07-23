@@ -92,6 +92,18 @@
 }
 
 @media screen and (max-width:1250px) {
+    hr {
+        display: none;
+    }
+
+    .menu .box {
+        margin: 10% 0;
+    }
+
+    .menu .container .box {
+        position: unset;
+    }
+
     .cbox {
         height: 1250px;
     }
@@ -127,7 +139,7 @@
     }
 
     .menu .container {
-        margin-top: 500px;
+        margin-top: 700px;
         position: unset;
         justify-content: space-around;
         align-items: center;
@@ -135,12 +147,9 @@
         width: 100%;
     }
 
-    .menu .box {
-        position: unset;
-    }
 
     .menu .box:nth-child(2) {
-        margin-top: 350px;
+        margin-top: 700px;
     }
 
     .one {
@@ -149,10 +158,6 @@
 
     .fade {
         margin-top: 100px;
-    }
-
-    .sun {
-        display: none;
     }
 }
 
@@ -206,7 +211,7 @@
     }
 
     .menu .container {
-        margin-top: 400px;
+        margin-top: 550px;
     }
 }
 
@@ -242,11 +247,18 @@
     }
 
     .menu .container {
-        margin-top: 300px;
+        margin-top: 400px;
     }
 
     .menu .box:nth-child(2) {
-        margin-top: 250px;
+        margin-top: 600px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .gotop {
+        width: 50px;
+        height: 52px;
     }
 }
 
@@ -265,6 +277,7 @@
 }
 
 @media screen and (max-width:650px) {
+
     .cbox .c1 {
         display: none;
     }
@@ -273,40 +286,48 @@
         display: none;
     }
 
-    .sun {
-        display: block;
-        position: absolute;
-        top: 176px;
-    }
-
-    .sun hr:nth-child(2) {
-        margin: 182px 0;
+    .menu .container {
+        position: relative;
+        margin-top: 0;
+        height: 80%;
     }
 
     .cbox .menu {
-        top: 50px;
+        position: absolute;
+        top: 10%;
+        right: 0%;
     }
 
-    .cbox .menu .container {
-        margin-top: 0;
-        height: 100%;
-        margin: 0px auto;
-        display: block;
+    .one {
+        margin-bottom: 0px;
     }
 
-    .cbox .menu .container .box {
-        margin-top: 0;
-        margin: 0 auto;
+    .menu .container .box {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+        width: 192px;
     }
 
-    .cbox .menu .container .box .one {
-        margin: 70px auto;
+    .menu .container .box:nth-child(1) {
+        top: 0;
+    }
+
+    .menu .container .box:nth-child(2) {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .menu .container .box:nth-child(3) {
+        bottom: 0;
     }
 }
 
 @media screen and (max-width:600px) {
     .cbox {
-        height: 600px;
+        height: 800px;
     }
 
     .main1 {
@@ -329,6 +350,12 @@
 
     .line {
         margin-top: 40%;
+        width: 500px;
+    }
+
+    .gotop {
+        right: 30px;
+        bottom: 50px;
     }
 }
 
@@ -353,12 +380,17 @@
 
     .line {
         margin-top: 50%;
+        width: 400px;
+    }
+
+    .gotop {
+        right: 20px;
     }
 }
 
 @media screen and (max-width:400px) {
     .cbox {
-        height: 600px;
+        height: 800px;
     }
 
     .main1 {
@@ -378,6 +410,11 @@
 
     .line {
         margin-top: 30%;
+        width: 300px;
+    }
+
+    .line h1 {
+        font-size: 1.5rem;
     }
 
     .main3 h1 {
@@ -444,5 +481,9 @@
     .main5 h3 {
         bottom: 21%;
         font-size: 1.6rem;
+    }
+
+    .gotop {
+        right: 10px;
     }
 }
